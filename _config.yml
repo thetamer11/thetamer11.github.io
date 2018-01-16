@@ -1,2 +1,4 @@
 name: Gavin Camlin, Personal Website
 markdown: kramdown
+
+permalink: /blog/:year/:month/:day/:title
