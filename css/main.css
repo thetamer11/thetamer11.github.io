@@ -20,7 +20,7 @@ nav ul, footer ul{
   font-weight: bold;
 }
 nav ul li{
-  display: block;
+  display: inline;
   margin-right: 20px;  
 } 
 footer ul li{
@@ -46,4 +46,11 @@ footer {
 
 ul.posts li{
   list-style: none;
+}
+.WordsPics{
+    text-align: center;
+    position: absolute;
+    top: 8px;
+    left: 16px;
+    
 }
