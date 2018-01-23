@@ -1,7 +1,7 @@
 html{
     margin: 0;
     padding: 0;
-    background-color: #57606d;
+    background-color: #8eb9ff;
 }
 title{
     margin: 5em auto;
@@ -13,7 +13,14 @@ body{
   width: 70%;
   background: #4067a5;
 }
-nav ul, footer ul{
+nav ul{
+  font-family: 'Helvetica', 'Arial', 'Sans-Serif';
+  padding: opx;
+  list-style: none;
+  font-weight: bold;
+  font-size: 2em;
+}
+footer ul{
   font-family: 'Helvetica', 'Arial', 'Sans-Serif';
   padding: opx;
   list-style: none;
