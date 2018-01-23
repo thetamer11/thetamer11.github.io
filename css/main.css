@@ -4,7 +4,7 @@ html{
     background-color: #57606d;
 }
 title{
-    margin: 2em auto;
+    margin: 5em auto;
     margin-top: 1em;
 }
 body{
@@ -19,8 +19,12 @@ nav ul, footer ul{
   list-style: none;
   font-weight: bold;
 }
-nav ul li, footer ul li{
+nav ul li{
   display: block;
+  margin-right: 20px;  
+} 
+footer ul li{
+  display: inline;
   margin-right: 20px;
 }
 a {
