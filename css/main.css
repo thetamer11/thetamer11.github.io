@@ -48,12 +48,15 @@ ul.posts li{
   list-style: none;
 }
 .WordsPics{
+    position: relative;
     text-align: center;
+    color: white;
     position: absolute;
     top: 8px;
-    left: 16px;  
+    left: 16px;
 }
 .Pics{
+    position: relative;
     text-align: center;
-    position: absolute;
+    color: white;
 }
