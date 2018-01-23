@@ -1,7 +1,15 @@
+html{
+    background-color: rgb(87, 96, 109);
+}
+title{
+    margin: 2em auto;
+    margin-top: 1em;
+}
 body{
   margin: 1em auto;
   margin-top: 1em;
   width: 70%;
+  background-color: rgb(105, 134, 175);
 }
 nav ul, footer ul{
   font-family: 'Helvetica', 'Arial', 'Sans-Serif';
@@ -10,7 +18,7 @@ nav ul, footer ul{
   font-weight: bold;
 }
 nav ul li, footer ul li{
-  display: inline;
+  display: table-column;
   margin-right: 20px;
 }
 a {
