@@ -1,6 +1,6 @@
 body{
-  margain: 60px auto;
-  width: 70%
+  margain: 1em auto;
+  width: 70%;
 }
 nav ul, footer ul{
   font-family: 'Helvetica', 'Arial', 'Sans-Serif';
