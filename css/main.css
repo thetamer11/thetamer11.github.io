@@ -20,7 +20,7 @@ nav ul, footer ul{
   font-weight: bold;
 }
 nav ul li, footer ul li{
-  display: table-column;
+  display: block;
   margin-right: 20px;
 }
 a {
