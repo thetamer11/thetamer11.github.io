@@ -1,16 +1,23 @@
 html{
     margin: 0;
     padding: 0;
-    background-color: #094dba;
+    background-color: #021a3f;
 }
 title{
     margin: 5em auto;
     margin-top: 1em;
+    font-size: 3em;
+}
+intro{
+    font-size:2em;
+}
+h1{
+    font-size: 2em;
 }
 body{
   margin: 1em auto;
   margin-top: 1em;
-  width: 70%;
+  width: 90%;
   background: #ffffff;
 }
 nav ul{
