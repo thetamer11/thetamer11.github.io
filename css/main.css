@@ -1,9 +1,10 @@
-html{
-    margin: 0;
-    padding: 0;
+html
+{
     background-color: #021a3f;
 }
-title{
+
+title
+{
     margin: 5em auto;
     margin-top: 1em;
     font-size: 3em;

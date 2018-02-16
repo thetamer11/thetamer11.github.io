@@ -1,4 +1,4 @@
-name: Gavin Camlin, Personal Website
+name: Gavin Camlin
 markdown: kramdown
 
-permalink: /blog/:year/:month/:day/:title
+permalink: /games/:title
