@@ -2,8 +2,7 @@
 
 html
 {
-    background-color: #99D3DF;
-
+    background-color: #52658F;
 }
 
 title
@@ -11,11 +10,6 @@ title
     margin: 5em auto;
     margin-top: 1em;
     font-size: 3em;
-}
-
-intro
-{
-    font-size:2em;
 }
 
 h1
@@ -38,12 +32,12 @@ body
 
 .content
 {
-  background: #CDCDCD;
+  background: #F7F5E6;
 }
 
 nav
 {
-  background: #E9E9E9;
+  background: #E8E8E8;
 }
 
 nav ul
@@ -61,12 +55,12 @@ nav ul
 nav ul li
 {
   display: inline;
-  margin-right: 20px;
+  margin: auto;
 }
 
 footer
 {
-  background: #E9E9E9;
+  background: #E8E8E8;
 }
 
 footer ul
@@ -85,7 +79,7 @@ footer ul li
 a
 {
   text-decoration: none;
-  color: #88BBD6;
+  color: #333A56;
 }
 
 a:hover
