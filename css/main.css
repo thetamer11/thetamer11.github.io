@@ -28,7 +28,6 @@ body
   margin: 1em auto;
   margin-top: 1em;
   width: 70%;
-
 }
 
 .container
@@ -52,6 +51,11 @@ nav ul
   justify-content: space-between;
 }
 
+footer
+{
+  background: #CDCDCD;
+}
+
 footer ul
 {
   padding: opx;
@@ -59,13 +63,13 @@ footer ul
   font-weight: bold;
 }
 
-nav ul li
+footer ul li
 {
   display: inline;
   margin-right: 20px;
 }
 
-footer ul li
+nav ul li
 {
   display: inline;
   margin-right: 20px;
@@ -87,12 +91,6 @@ p
   font-size: 1.5em;
   line-height: 1.4em;
   color: #333;
-}
-
-footer
-{
-  border-top: 1px solid #d5d5d5;
-  font-size: .8em;
 }
 
 ul.posts li
