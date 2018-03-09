@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "Investigator Ivy"
-date: 2017-11-05
-logo: "/assets/games/16_iii/logo.gif"
-banner: "/assets/games/16_iii/banner.png"
+title: "Deforestation Trail"
+date: 2018-02-25
+logo: "/assets/games/003_deforestation_trail/logo.png"
+banner: "/assets/games/003_deforestation_trail/banner.png"
 screenshots:
  - "/assets/games/16_iii/1.png"
  - "/assets/games/16_iii/2.png"

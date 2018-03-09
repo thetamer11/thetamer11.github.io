@@ -2,9 +2,26 @@
 layout: default
 ---
 
-<h1>{{ page.title }}</h1>
-<p class="meta">{{ page.date | date_to_strings }}</p>
+<a href="{{ page.url }}" title="{{ page.title }}">
+	<div style="background-image:url({{ page.banner }});" class="banner">
+		<div class="logo"><img src="{{ page.logo }}" alt="{{ page.title }}"></div>
+	</div>
+</a>
 
-<div class="post">
-  {{ content }}
+<div class="area">
+	<div class="container">
+		<div class="post">
+			<h2>{{ page.title }}</h2>
+			<p class="meta">{{ page.date | date: "%m/%d/%Y" }}</p>
+			<h3>{{ page.genre }}</h3>
+			<hr>
+			{{ content }}
+		</div>
+
+		<div class="screenshots">
+			{% for screenshots in page.screenshots %}
+				<img style="max-width: 100%;" src = {{ screenshots }}>
+				{% endfor %}
+		</div>
+	</div>
 </div>

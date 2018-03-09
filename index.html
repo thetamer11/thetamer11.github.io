@@ -3,6 +3,13 @@ layout: default
 title: Gavin Camlin | An indie dev
 ---
 
-<h1><center>Hi! Welcome!</center></h1>
-<p class = "Intro"><center>My name is Gavin Camlin I'm an indie game developer&period;</center></p>
-<h2><center>Recent Activity</center></h2>
+<ul>
+  {% for post in site.posts %}
+  	<a href="{{ post.url }}" title="{{ post.title }}">
+  		<div style="background-image:url({{ post.banner }});" class="banner">
+  			<div class="overlay"></div>
+  			<div class="logo"><img src="{{ post.logo }}" alt="{{ post.title }}"></div>
+  		</div>
+  	</a>
+  {% endfor %}
+</ul>
