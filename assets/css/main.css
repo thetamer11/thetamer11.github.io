@@ -126,6 +126,14 @@ footer ul li
 	opacity: 0.0;
 }
 
+.twocol {
+	width: 50%;
+	overflow: auto;
+	float: left;
+	padding-left: 1em;
+	padding-right: 1em;
+}
+
 a
 {
   text-decoration: none;
