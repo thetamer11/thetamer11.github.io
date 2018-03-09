@@ -27,6 +27,9 @@ body
 
 .container
 {
+    position: relative;
+  	overflow: auto;
+  	margin: 0;
     padding: 2em;
 }
 
