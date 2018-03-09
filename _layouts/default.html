@@ -2,29 +2,30 @@
 layout: meta
 ---
 
-<header>
-  <div class="container">
-    <h1>{{ site.name }}</h1>
-  </div>
-</header>
-
 <body>
-    <nav>
-        <ul>
-            <li><a href="/">Home</a></li>
-            <li><a href="/about/index.html">About</a></li>
-            <li><a href="/games/index.html">Games</a></li>
-        </ul>
-    </nav>
+  <header>
+    <div class="container">
+      <h1>{{ site.name }}</h1>
+    </div>
+  </header>
 
+  <nav>
+    <ul>
+      <li><a href="/">Home</a></li>
+      <li><a href="/about/index.html">About</a></li>
+      <li><a href="/games/index.html">Games</a></li>
+    </ul>
+  </nav>
+
+  <div class="content">
     <div class="container">
 
         {{ content }}
 
     </div>
+  </div>
 
-    <footer>
-        <p>Copyright &copy; Gavin Camlin, all rights reserved&period;</p>
-    </footer>
-
+  <footer>
+    <p>Copyright &copy; Gavin Camlin, all rights reserved&period;</p>
+  </footer>
 </body>

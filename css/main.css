@@ -24,16 +24,21 @@ h1
 
 body
 {
-font-family: 'Open Sans', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   margin: 1em auto;
   margin-top: 1em;
-  width: 90%;
-  background: #E9E9E9;
+  width: 80%;
+
 }
 
 .container
 {
     padding: 1em;
+}
+
+.content
+{
+  background: #E9E9E9;
 }
 
 nav ul
