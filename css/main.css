@@ -2,7 +2,8 @@
 
 html
 {
-    background-color: #88BBD6;
+    background-color: #99D3DF;
+
 }
 
 title
@@ -70,7 +71,7 @@ footer
 
 footer ul
 {
-  padding: opx;
+  padding: 0px;
   list-style: none;
   font-weight: bold;
 }
@@ -81,12 +82,10 @@ footer ul li
   margin-right: 20px;
 }
 
-
-
 a
 {
   text-decoration: none;
-  color: #99D3DF;
+  color: #88BBD6;
 }
 
 a:hover
