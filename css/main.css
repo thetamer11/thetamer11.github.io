@@ -78,8 +78,8 @@ footer ul li
 
 .circleImg
 {
-  width: 128px;
-  height: 128px;
+  width: 16vw;
+  height: 16vw;
   background-size: cover;
   border-radius: 50%;
 }
