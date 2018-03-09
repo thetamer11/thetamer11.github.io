@@ -76,6 +76,14 @@ footer ul li
   margin-right: 20px;
 }
 
+.circleImg
+{
+  width: 90px;
+  height: 90px;
+  background-size: cover;
+  border-radius: 50%;
+}
+
 a
 {
   text-decoration: none;
