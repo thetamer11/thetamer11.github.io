@@ -13,7 +13,6 @@ layout: default
 		<div class="post">
 			<h2>{{ page.title }}</h2>
 			<p class="meta">{{ page.date | date: "%m/%d/%Y" }}</p>
-            <p class="link">{{ page.link }}</p>
 			<hr>
 			<div class = "twocol">{{ content }}</div>
 		</div>
@@ -23,6 +22,7 @@ layout: default
 				<img style="max-width: 100%;" src = {{ screenshots }}>
 				{% endfor %}
 		</div>
+        <p class="link">{{ page.link }}</p>
 	</div>
 </div>
 
