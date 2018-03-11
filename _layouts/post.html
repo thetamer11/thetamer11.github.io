@@ -13,15 +13,23 @@ layout: default
 		<div class="post">
 			<h2>{{ page.title }}</h2>
 			<p class="meta">{{ page.date | date: "%m/%d/%Y" }}</p>
-			<h3>{{ page.genre }}</h3>
 			<hr>
-			{{ content }}
+			<div class = "twocol">{{ content }}</div>
 		</div>
 
-		<div class="screenshots">
+		<div class = "twocol" class="screenshots">
 			{% for screenshots in page.screenshots %}
 				<img style="max-width: 100%;" src = {{ screenshots }}>
 				{% endfor %}
 		</div>
 	</div>
 </div>
+
+<!--<div class="twocol">
+  <p>Hey my name is Gavin Camlin, I'm 19, born September 8th 1998. I am currently in my first year at Becker College for a degree in Interactive Media with a concintration in Game Development and Game Programing. I really enjoy developing my own Indie games along with working on them with friends, I plan to do a lot of game jams and develop as many quality games I can while I'm at Becker.</p>
+  <p>Email me at contact[at]gcamlin[dot]com</p>
+</div>
+
+<div class="twocol">
+  <img src= "/assets/images/portrait.png" style="width: 100%; height: auto;">
+</div>-->
