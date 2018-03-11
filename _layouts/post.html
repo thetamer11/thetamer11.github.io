@@ -11,8 +11,9 @@ layout: default
 <div class="area">
 	<div class="container">
 		<div class="post">
-			<h2>{{ page.title }} <iframe frameborder="0" src="https://itch.io/embed/228614?bg_color=F7F5E6&amp;fg_color=222222&amp;link_color=3b53b5&amp;border_color=3b53b5" width="208" height="167"></iframe></h2>
+			<h2>{{ page.title }}</h2>
 			<p class="meta">{{ page.date | date: "%m/%d/%Y" }}</p>
+            <p class="link">{{ page.link }}</p>
 			<hr>
 			<div class = "twocol">{{ content }}</div>
 		</div>

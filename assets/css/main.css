@@ -157,3 +157,10 @@ ul.posts li
 {
   list-style: none;
 }
+.link
+{
+  width: 50%;
+  overflow: auto;
+  float: left;
+  padding: 0em;
+}
