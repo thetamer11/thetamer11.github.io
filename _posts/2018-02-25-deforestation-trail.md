@@ -2,7 +2,7 @@
 layout: post
 title: "Deforestation Trail"
 date: 2018-02-25
-logo: "/assets/games/003_deforestation_trail/logo.png"
+logo: "/assets/games/003_deforestation_trail/GameplayGif.png"
 banner: "/assets/games/003_deforestation_trail/banner.png"
 screenshots:
  - "/assets/games/003_deforestation_trail/1.png"
