@@ -2,7 +2,7 @@
 layout: post
 title: "Transmission"
 date: 2018-02-19
-link: <iframe frameborder="0" src="https://itch.io/embed/226616?bg_color=F7F5E6&amp;link_color=3b53b5&amp;border_color=F7F5E6" width="552" height="167"></iframe>
+link: <iframe frameborder="0" src="https://itch.io/embed/226616?bg_color=F7F5E6&amp;link_color=3b53b5" width="552" height="167"></iframe>
 logo: "/assets/games/002_transmission/logo.png"
 banner: "/assets/games/002_transmission/banner.png"
 screenshots:
