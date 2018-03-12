@@ -2,7 +2,7 @@
 layout: post
 title: "Deforestation Trail"
 date: 2018-02-25
-link: <iframe frameborder="0" src="https://itch.io/embed/228614?border_width=0&amp;bg_color=F7F5E6&amp;fg_color=222222&amp;link_color=3b53b5&amp;border_color=F7F5E6" width="550" height="165"></iframe>
+link: <iframe frameborder="0" src="https://itch.io/embed/228614?border_width=0&amp;bg_color=F7F5E6&amp;fg_color=222222&amp;link_color=3b53b5" width="550" height="165"></iframe>
 logo: "/assets/games/003_deforestation_trail/logo.png"
 banner: "/assets/games/003_deforestation_trail/banner.png"
 screenshots:
