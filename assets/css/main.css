@@ -1,22 +1,15 @@
 @import 'https://fonts.googleapis.com/css?family=Open+Sans';
 
-html
-{
-    background-color: #F9F9F9;
-}
-
 title
 {
     margin: 5vw auto;
     margin-top: 1vw;
     font-size: 3vw;
-    color: #77C9D4
 }
 
 h1
 {
     font-size: 2vw;
-    color: #000
 }
 
 body
@@ -30,7 +23,6 @@ body
   position: relative;
   overflow: auto;
   margin: 0;
-  padding: 2em;
 }
 
 .content
@@ -48,6 +40,7 @@ nav ul
   font-size: 2vw;
   display: flex;
   justify-content: space-between;
+    color: #77C9D4;
 }
 
 nav ul li
@@ -73,21 +66,6 @@ footer ul
 footer ul li
 {
   display: inline;
-  margin-right: 20px;
-}
-
-.SocialImgs
-{
-    width: 2vw;
-    height: 2vw;
-}
-
-.circleImg
-{
-  width: 16vw;
-  height: 16vw;
-  background-size: cover;
-  border-radius: 50%;
 }
 
 .banner
@@ -164,4 +142,15 @@ ul.posts li
 {
   max-width: 3vw;
   margin: auto;
+}
+
+.SocialImgs
+{
+    display: inline;    
+}
+
+footer{
+    font-size: 3vw;
+    width: 50vw;
+    height: 50vw;
 }
