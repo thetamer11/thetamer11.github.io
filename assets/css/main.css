@@ -66,7 +66,8 @@ footer ul
 
 footer ul li
 {
-  display: grid;
+    display: inline;
+  margin: auto;
 }
 
 .banner
