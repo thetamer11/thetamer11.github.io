@@ -7,21 +7,21 @@ html
 
 title
 {
-    margin: 5em auto;
-    margin-top: 1em;
-    font-size: 3em;
+    margin: 5vw auto;
+    margin-top: 1vw;
+    font-size: 3vw;
 }
 
 h1
 {
-    font-size: 2em;
+    font-size: 2vw;
 }
 
 body
 {
   font-family: 'Open Sans', sans-serif;
-  margin: 1em auto;
-  margin-top: 1em;
+  margin: 1vw auto;
+  margin-top: 1vw;
   width: 60%;
 }
 
@@ -160,6 +160,6 @@ ul.posts li
 }
 .link
 {
-  max-width: 500px;
+  max-width: 3vw;
   margin: auto;
 }
