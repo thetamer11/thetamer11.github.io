@@ -2,7 +2,7 @@
 
 html
 {
-    background-color: #FFFFFF;
+    background-color: #F9F9F9;
 }
 
 title
@@ -19,10 +19,8 @@ h1
 
 body
 {
+    background-color: #F9F9F9;
   font-family: 'Open Sans', sans-serif;
-  margin: 1vw auto;
-  margin-top: 1vw;
-  width: 60%;
 }
 
 .container
