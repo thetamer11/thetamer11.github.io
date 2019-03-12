@@ -66,6 +66,8 @@ footer ul
   padding: 0px;
   list-style: none;
   font-weight: bold;
+    width: 1vw;
+    height: 1vw;
 }
 
 footer ul li
