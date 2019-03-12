@@ -1,0 +1,26 @@
+<footer>
+    <div class="container">
+        <div class="skinny">
+            <div class="Socials">
+                <ul>
+                    {% for social in site.socials %}
+                    <li>
+                        <a href="{{ social.link }}"
+                           target="_blank">
+                            <img style="width: 100%;"
+                                 src = {{ social.img }}>
+                        </a>
+                    </li>
+                    {% endfor %}
+                </ul>
+            </div>
+                
+            <p>
+                Copyright © 2017-2018 Gavin Camlin, all rights reserved.
+            </p>
+            <p>
+                All content and trademarks are property of their respective owners.
+            </p>
+        </div>
+    </div>
+</footer>

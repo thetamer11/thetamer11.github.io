@@ -1,0 +1,19 @@
+{%- for social in site.socials -%}
+    {%- if social.title == include.title -%}
+        {%- if include.link == true -%}
+            {%- if social.link -%}
+                <a href="{{ social.link }}" target="_blank">
+            {%- endif -%}
+        {%- endif -%}
+
+        {%- if include.text == true -%}
+            {{ social.content }}
+        {%- endif -%}
+
+        {%- if include.link == true -%}
+            {%- if social.link -%}
+                </a>
+            {%- endif -%}
+        {%- endif -%}
+    {%- endif -%}
+{%- endfor -%}

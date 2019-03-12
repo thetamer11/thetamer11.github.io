@@ -40,7 +40,8 @@ body
 
 nav
 {
-  background: #E8E8E8;
+    background: #E8E8E8;
+    font-size: 2vw;
 }
 
 nav ul
