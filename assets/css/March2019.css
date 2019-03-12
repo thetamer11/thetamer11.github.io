@@ -35,8 +35,16 @@ body{
     width: .5vw;
 }
 
+.Posts{
+    display: inline-block;
+}
+
 footer{
     font-size: 3vw;
+}
+
+footer ul{
+    display: inline-block;
 }
 
 footer ul li{
