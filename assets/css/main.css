@@ -49,6 +49,11 @@ nav ul li
   margin: auto;
 }
 
+footer
+{
+    font-size: 3vw;
+}
+
 footer ul
 {
   padding: 0px;
