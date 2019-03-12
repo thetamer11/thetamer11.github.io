@@ -31,6 +31,8 @@ body
   overflow: auto;
   margin: 0;
   padding: 2em;
+    font-size: 2vw;
+    text-align: center;
 }
 
 .content
@@ -89,7 +91,7 @@ footer ul li
 
 .banner
 {
-  height: 480px;
+  height: 50vw;
   display: block;
 	background-size: cover;
 	background-position: center;
@@ -118,14 +120,14 @@ footer ul li
 	height: 100%;
 	position: absolute;
 	background-color: #000;
-	opacity: 0.5;
+	opacity: 0.0;
 	z-index: 1;
 	transition: .15s;
 }
 
 .banner:hover > .overlay
 {
-	opacity: 0.0;
+	opacity: 0.5;
 }
 
 .twocol {
@@ -138,7 +140,7 @@ footer ul li
 a
 {
   text-decoration: none;
-  color: #333A56;
+  color: #77C9D4;
 }
 
 a:hover
