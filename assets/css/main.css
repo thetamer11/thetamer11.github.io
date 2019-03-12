@@ -37,12 +37,12 @@ body
 
 .content
 {
-  background: #F7F5E6;
+  background: #57BC90;
 }
 
 nav
 {
-  background: #E8E8E8;
+  background: #FFF;
 }
 
 nav ul
@@ -162,4 +162,171 @@ ul.posts li
 {
   max-width: 500px;
   margin: auto;
+}
+
+@media (max-width: 800px)
+{
+    html
+    {
+        background-color: #52658F;
+    }
+
+    title
+    {
+        margin: 5em auto;
+        margin-top: 1em;
+        font-size: 3em;
+    }
+
+    h1
+    {
+        font-size: 2em;
+    }
+
+    body
+    {
+      font-family: 'Open Sans', sans-serif;
+      margin: 1em auto;
+      margin-top: 1em;
+      width: 100%;
+    }
+
+    .container
+    {
+      position: relative;
+      overflow: auto;
+      margin: 0;
+      padding: 2em;
+        font-size: 2vw;
+        text-align: center;
+    }
+
+    .content
+    {
+      background: #F7F5E6;
+    }
+
+    nav
+    {
+      background: #E8E8E8;
+    }
+
+    nav ul
+    {
+      font-family: 'Open Sans', sans-serif;
+      padding: 0px;
+      margin: 0px;
+      list-style: none;
+      font-weight: bold;
+      font-size: 3vw;
+      display: flex;
+      justify-content: space-between;
+    }
+
+    nav ul li
+    {
+      display: inline;
+      margin: auto;
+    }
+
+    footer
+    {
+      background: #E8E8E8;
+    }
+
+    footer ul
+    {
+      padding: 0px;
+      list-style: none;
+      font-weight: bold;
+    }
+
+    footer ul li
+    {
+      display: inline;
+      margin-right: 20px;
+    }
+
+    .circleImg
+    {
+      width: 18vw;
+      height: 18vw;
+      background-size: cover;
+      border-radius: 50%;
+    }
+
+    .banner
+    {
+      height: 50vw;
+      display: block;
+        background-size: cover;
+        background-position: center;
+        position: relative;
+    }
+
+    .banner .logo
+    {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .banner .logo img
+    {
+        max-width: 90%;
+      max-height: 90%;
+    }
+
+    .banner .overlay
+    {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        background-color: #000;
+        opacity: 0.0;
+        z-index: 1;
+        transition: .15s;
+    }
+
+    .banner:hover > .overlay
+    {
+        opacity: 0.5;
+    }
+
+    .twocol {
+        width: 50%;
+        overflow: auto;
+        float: left;
+        padding: 0em;
+    }
+
+    a
+    {
+      text-decoration: none;
+      color: #77C9D4;
+    }
+
+    a:hover
+    {
+      text-decoration:underline;
+    }
+
+    p
+    {
+      line-height: 1.4em;
+      color: #333;
+    }
+
+    ul.posts li
+    {
+      list-style: none;
+    }
+    .link
+    {
+      max-width: 500px;
+      margin: auto;
+    }
 }
