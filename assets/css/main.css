@@ -2,7 +2,7 @@
 
 html
 {
-    background-color: #52658F;
+    background-color: #FFFFFF;
 }
 
 title
@@ -38,12 +38,6 @@ body
   background: #F7F5E6;
 }
 
-nav
-{
-    background: #E8E8E8;
-    font-size: 2vw;
-}
-
 nav ul
 {
   font-family: 'Open Sans', sans-serif;
@@ -51,7 +45,7 @@ nav ul
   margin: 0px;
   list-style: none;
   font-weight: bold;
-  font-size: 2em;
+  font-size: 2vw;
   display: flex;
   justify-content: space-between;
 }
