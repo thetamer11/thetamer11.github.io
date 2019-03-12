@@ -1,0 +1,22 @@
+header{
+    
+}
+
+header ul li{
+    color: #77C9D4;
+    font-size: 3vw;
+}
+
+body{
+    background-color: #F9F9F9;
+    font-family: 'Open Sans', sans-serif;
+}
+
+footer{
+    font-size: 3vw;
+}
+
+footer ul li{
+    height: 2vw;
+    width: 2vw;
+}
