@@ -39,6 +39,22 @@ body{
     width: auto;
 }
 
+.banner .overlay
+{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	background-color: #000;
+	opacity: 0.0;
+	z-index: 1;
+	transition: .15s;
+}
+
+.banner:hover > .overlay
+{
+	opacity: 0.5;
+}
+
 .Posts{
     display: inline-block;
 }
