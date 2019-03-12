@@ -48,10 +48,17 @@ footer{
 }
 
 footer ul{
-    display: inline-block;
+    font-family: 'Open Sans', sans-serif;
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    font-weight: bold;
+    font-size: 2vw;
+    display: flex;
+    justify-content: space-between;
 }
 
 footer ul li{
-    height: .5vw;
-    width: .5vw;
+    display: inline;
+    margin: auto;
 }
