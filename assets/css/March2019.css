@@ -38,6 +38,7 @@ body{
 	background-position: center;
 	position: relative;
 }
+
 .banner logo{
     position: absolute;
 	width: 100%;
@@ -79,6 +80,8 @@ footer ul{
     font-weight: bold;
     display: flex;
     justify-content: space-between;
+    width: 10vw;
+    height 10vw;
 }
 
 footer ul li{
