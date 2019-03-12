@@ -102,7 +102,10 @@ body
 }
 
 .Posts{
-    display: inline-block;
+    width: 64%;
+	overflow: auto;
+	float: left;
+	padding-right: 2%;
 }
 
 footer{
