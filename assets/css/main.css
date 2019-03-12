@@ -2,7 +2,7 @@
 
 html
 {
-    background-color: #52658F;
+    background-color: #FFF;
 }
 
 title
@@ -22,7 +22,7 @@ body
   font-family: 'Open Sans', sans-serif;
   margin: 1em auto;
   margin-top: 1em;
-  width: 60%;
+  width: 90%;
 }
 
 .container
@@ -52,7 +52,7 @@ nav ul
   margin: 0px;
   list-style: none;
   font-weight: bold;
-  font-size: 2em;
+  font-size: 3vw;
   display: flex;
   justify-content: space-between;
 }
@@ -83,8 +83,8 @@ footer ul li
 
 .circleImg
 {
-  width: 16vw;
-  height: 16vw;
+  width: 18vw;
+  height: 18vw;
   background-size: cover;
   border-radius: 50%;
 }
