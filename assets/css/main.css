@@ -30,7 +30,6 @@ body
   position: relative;
   overflow: auto;
   margin: 0;
-  padding: 2em;
     font-size: 2vw;
     text-align: center;
 }
@@ -83,8 +82,8 @@ footer ul li
 
 .circleImg
 {
-  width: 18vw;
-  height: 18vw;
+  width: 9vw;
+  height: 9vw;
   background-size: cover;
   border-radius: 50%;
 }
@@ -131,7 +130,7 @@ footer ul li
 
 .navLink .linkOverlay
 {
-   width: 100%;
+   width: 25%;
 	height: 100%;
 	position: absolute;
 	background-color: #77C9D4;
@@ -222,7 +221,6 @@ ul.posts li
       position: relative;
       overflow: auto;
       margin: 0;
-      padding: 2em;
         font-size: 2vw;
         text-align: center;
     }
@@ -323,7 +321,7 @@ ul.posts li
 
     .navLink .linkOverlay
     {
-       width: 100%;
+       width: 25%;
         height: 100%;
         position: absolute;
         background-color: #77C9D4;
