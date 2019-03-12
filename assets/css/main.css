@@ -50,9 +50,9 @@ nav ul li
     color: #77C9D4;
 }
 
-footer
-{
-    font-size: .2vw;
+.SocialsImgs{
+    width: 1vw;
+    height: 1vw;
 }
 
 footer ul
@@ -60,8 +60,7 @@ footer ul
   padding: 0px;
   list-style: none;
   font-weight: bold;
-    width: 10vw;
-    height: 10vw;
+    
 }
 
 footer ul li
