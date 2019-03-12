@@ -31,8 +31,8 @@ body{
 }
 
 .banner{
-    height: 20vw;
-    width: 20vw;
+    height: 80vw;
+    width: 80vw;
     display: block;
 	background-size: cover;
 	background-position: center;
