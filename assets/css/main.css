@@ -49,23 +49,18 @@ nav ul li
   margin: auto;
 }
 
-footer
-{
-  background: #E8E8E8;
-}
-
 footer ul
 {
   padding: 0px;
   list-style: none;
   font-weight: bold;
-    width: 1vw;
-    height: 1vw;
+    width: 50vw;
+    height: 25vw;
 }
 
 footer ul li
 {
-  display: inline;
+  display: grid;
 }
 
 .banner
@@ -142,15 +137,4 @@ ul.posts li
 {
   max-width: 3vw;
   margin: auto;
-}
-
-.SocialImgs
-{
-    display: inline;  
-    width: 50vw;
-    height: 50vw;
-}
-
-footer{
-    font-size: 3vw;
 }
