@@ -31,8 +31,8 @@ body{
 }
 
 .banner{
-    height: 4vw;
-    width: 4vw;
+    height: 20vw;
+    width: 20vw;
     display: block;
 	background-size: cover;
 	background-position: center;
@@ -46,6 +46,11 @@ body{
 	display: flex;
 	justify-content: center;
 	align-items: center;
+}
+
+.banner logo img{
+    width: 90%;
+    height: 90%;
 }
 
 .banner .overlay
