@@ -1,21 +1,28 @@
 @import 'https://fonts.googleapis.com/css?family=Open+Sans';
 
+html
+{
+    background-color: #52658F;
+}
+
 title
 {
-    margin: 5vw auto;
-    margin-top: 1vw;
-    font-size: 3vw;
+    margin: 5em auto;
+    margin-top: 1em;
+    font-size: 3em;
 }
 
 h1
 {
-    font-size: 2vw;
+    font-size: 2em;
 }
 
 body
 {
-    background-color: #F9F9F9;
   font-family: 'Open Sans', sans-serif;
+  margin: 1em auto;
+  margin-top: 1em;
+  width: 60%;
 }
 
 .container
@@ -23,11 +30,17 @@ body
   position: relative;
   overflow: auto;
   margin: 0;
+  padding: 2em;
 }
 
 .content
 {
   background: #F7F5E6;
+}
+
+nav
+{
+  background: #E8E8E8;
 }
 
 nav ul
@@ -37,22 +50,20 @@ nav ul
   margin: 0px;
   list-style: none;
   font-weight: bold;
-  font-size: 2vw;
+  font-size: 2em;
   display: flex;
   justify-content: space-between;
-    color: #77C9D4;
 }
 
 nav ul li
 {
   display: inline;
   margin: auto;
-    color: #77C9D4;
 }
 
-.SocialsImgs{
-    width: 1vw;
-    height: 1vw;
+footer
+{
+  background: #E8E8E8;
 }
 
 footer ul
@@ -60,18 +71,25 @@ footer ul
   padding: 0px;
   list-style: none;
   font-weight: bold;
-    
 }
 
 footer ul li
 {
-    display: inline;
-  margin: auto;
+  display: inline;
+  margin-right: 20px;
+}
+
+.circleImg
+{
+  width: 16vw;
+  height: 16vw;
+  background-size: cover;
+  border-radius: 50%;
 }
 
 .banner
 {
-  height: 4vw;
+  height: 480px;
   display: block;
 	background-size: cover;
 	background-position: center;
@@ -120,7 +138,7 @@ footer ul li
 a
 {
   text-decoration: none;
-  color: #FFF;
+  color: #333A56;
 }
 
 a:hover
@@ -141,6 +159,6 @@ ul.posts li
 }
 .link
 {
-  max-width: 3vw;
+  max-width: 500px;
   margin: auto;
 }
