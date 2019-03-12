@@ -7,9 +7,32 @@ header ul li{
     font-size: 3vw;
 }
 
+nav ul
+{
+    font-family: 'Open Sans', sans-serif;
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    font-weight: bold;
+    font-size: 2vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul li
+{
+    display: inline;
+    margin: auto;
+}
+
 body{
     background-color: #F9F9F9;
     font-family: 'Open Sans', sans-serif;
+}
+
+.banner{
+    height: .5vw;
+    width: .5vw;
 }
 
 footer{
@@ -17,6 +40,6 @@ footer{
 }
 
 footer ul li{
-    height: 2vw;
-    width: 2vw;
+    height: .5vw;
+    width: .5vw;
 }
