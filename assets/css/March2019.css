@@ -75,6 +75,7 @@ body{
 
 footer{
     font-size: 3vw;
+    text-align: center;
 }
 
 footer ul{
@@ -87,6 +88,7 @@ footer ul{
     justify-content: space-between;
     width: 10vw;
     height 10vw;
+    align-content: center;
 }
 
 footer ul li{
