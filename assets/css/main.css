@@ -36,6 +36,7 @@ body
 .content
 {
   background: #57BC90;
+    font-size: 2vw;
 }
 
 .content ul
@@ -77,7 +78,7 @@ nav ul li
 
 footer
 {
-  background: #E8E8E8;
+  background: #A5A5AF;
 }
 
 footer ul
@@ -230,6 +231,7 @@ ul.posts li
     .content
     {
       background: #57BC90;
+        font-size: 2vw;
     }
 
     .content ul li
@@ -265,7 +267,7 @@ ul.posts li
 
     footer
     {
-      background: #E8E8E8;
+      background: #A5A5AF;
     }
 
     footer ul
