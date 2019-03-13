@@ -161,9 +161,10 @@ footer ul li
 
 .twocol {
 	width: 50%;
-	overflow: auto;
-	float: left;
-	padding: 0em;
+	display: block;
+        background-size: cover;
+        background-position: center;
+        position: relative;
 }
 
 a
@@ -362,9 +363,10 @@ ul.posts li
 
     .twocol {
         width: 50%;
-        overflow: auto;
-        float: left;
-        padding: 0em;
+        display: block;
+        background-size: cover;
+        background-position: center;
+        position: relative;
     }
 
     a
