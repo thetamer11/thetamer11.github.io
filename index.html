@@ -5,12 +5,14 @@ title: Games
 
 <ul style="margin: 0px; padding: 0px;">
   {% for post in site.posts %}
-  	<a href="{{ post.url }}" title="{{ post.title }}">
-  		<div style="background-image:url({{ post.banner }});" class="banner">
-  			<div class="overlay"></div>
-  			<div class="logo"><img src="{{ post.logo }}" alt="{{ post.title }}"></div>
-  		</div>
-  	</a>
+  	<li>
+        <a href="{{ post.url }}" title="{{ post.title }}">
+            <div style="background-image:url({{ post.banner }});" class="banner">
+                <div class="overlay"></div>
+                <div class="logo"><img src="{{ post.logo }}" alt="{{ post.title }}"></div>
+            </div>
+        </a>
+        </li>
   {% endfor %}
 </ul>
 
