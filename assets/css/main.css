@@ -118,16 +118,6 @@ footer ul li
     opacity: 0.5;
 }
 
-.navLink:hover
-{
-    color: #FFF;
-}
-
-.navLink
-{
-    color: #77C9D4;
-}
-
 .navLink .linkOverlay
 {
    width: 25%;
@@ -171,6 +161,7 @@ a
 a:hover
 {
   text-decoration:underline;
+    color: #FFF;
 }
 
 p
