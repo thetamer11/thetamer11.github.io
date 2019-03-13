@@ -15,18 +15,12 @@ layout: default
 			<p class="meta">{{ page.date | date: "%m/%d/%Y" }}</p>
 			<hr>
 		</div>
-        <ul class="twocol">
-        <li>
         <div>{{ content }}</div>
-            </li>
-            <li>
 		<div class="screenshots">
 			{% for screenshots in page.screenshots %}
 				<img style="max-width: 100%;" src = {{ screenshots }}>
 				{% endfor %}
 		</div>
-                </li>
-            </ul>
 	</div>
 </div>
 </div>
