@@ -291,7 +291,7 @@ ul.posts li
 
     .banner
     {
-      height: 50vw;
+      height: 100%;
       display: block;
         background-size: cover;
         background-position: center;
