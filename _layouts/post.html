@@ -1,9 +1,9 @@
 ---
 layout: default
 ---
-
+<div class="content">
 <a href="{{ page.url }}" title="{{ page.title }}">
-	<div style="background-image:url({{ page.banner }});"height: 25vw; class="banner">
+	<div style="height: 15vw;background-image:url({{ page.banner }});"  class="banner">
 		<div class="logo"><img src="{{ page.logo }}" alt="{{ page.title }}"></div>
 	</div>
 </a>
@@ -14,10 +14,9 @@ layout: default
 			<h2>{{ page.title }}</h2>
 			<p class="meta">{{ page.date | date: "%m/%d/%Y" }}</p>
 			<hr>
-			<div class = "twocol">{{ content }}</div>
 		</div>
-
-		<div class = "twocol" class="screenshots">
+        <div class="twocol">{{ content }}</div>
+		<div class="twocol" class="screenshots">
 			{% for screenshots in page.screenshots %}
 				<img style="max-width: 100%;" src = {{ screenshots }}>
 				{% endfor %}
@@ -25,4 +24,4 @@ layout: default
         <p class="link">{{ page.link }}</p>
 	</div>
 </div>
-
+</div>
