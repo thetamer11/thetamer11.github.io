@@ -3,8 +3,8 @@ layout: post
 title: "Project Birch Tree"
 date: 2019-03-12
 link: 
-logo: "/assets/games/005_dangerous_fields/logo.png"
-banner: "/assets/games/005_dangerous_fields/banner.png"
+logo: "/assets/games/009_Project-Birch-Tree/Logo.png"
+banner: "/assets/games/009_Project-Birch-Tree/Banner.png"
 screenshots:
 - "/assets/games/009_Project-Birch-Tree/1.png"
 - "/assets/games/009_Project-Birch-Tree/2.png"
