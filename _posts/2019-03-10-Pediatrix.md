@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Unannounced MassDiGI Game"
+title: "Pediatrix Sentinal Events"
 date: 2019-03-10
 link: 
 logo: "/assets/games/007_Pediatrix/Logo.png"
