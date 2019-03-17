@@ -6,9 +6,9 @@ link:
 logo: "/assets/games/007_Pediatrix/Logo.png"
 banner: "/assets/games/007_Pediatrix/Banner.png"
 screenshots:
--"/assets/games/007_Pediatrix/1.png"
--"/assets/games/007_Pediatrix/2.png"
--"/assets/games/007_Pediatrix/3.png"
+- "/assets/games/007_Pediatrix/1.png"
+- "/assets/games/007_Pediatrix/2.png"
+- "/assets/games/007_Pediatrix/3.png"
 ---
 
 Programming on a research project in tandem with Boston University, Becker College, Boston Medical Center, and Children's Pediatric Trauma Institute. 
