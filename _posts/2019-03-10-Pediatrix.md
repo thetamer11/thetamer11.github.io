@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Pediatrix Sentinal Events"
+title: "Pediatrix"
 date: 2019-03-10
 link: 
 logo: "/assets/games/007_Pediatrix/Logo.png"
