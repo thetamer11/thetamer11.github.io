@@ -1,41 +1,39 @@
----
-layout: meta
----
-
-<body>
-  <header>
-          <div class="container">
-      <div class="circleImg" style="background-image: url('/assets/images/Me_Hat.png'); margin: auto;"></div>
-    </div>
-  </header>
-
-  <nav>
-    <div class="container">
-      <ul>
-        <li>
-            <div class="navLink">
-                <a href="/">Games</a></div></li>
-        <li>
-            <div class="navLink">
-                <a href="/about.html">About</a></div></li>
-        <li>
-            <div class="navLink">
-                <a href="https://twitter.com/GavinCamlin" target="_blank">Twitter</a></div></li>
-        <li>
-            <div class="navLink">
-                <a href="https://linkedin.com/in/gavin-camlin/" target="_blank"><div class="linkOverlay"></div>LinkedIn</a></div></li>
-      </ul>
-    </div>
-  </nav>
-
-  <div class="content">
-    {{ content }}
-  </div>
-
-  <footer>
-    <div class="container">
-      <p>Copyright © 2018-2019 Gavin Camlin, all rights reserved.</p>
-			<p>All content and trademarks are property of their respective owners.</p>
-    </div>
-  </footer>
-</body>
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>{{ page.title }}</title>
+        <!-- link to main stylesheet -->
+        <link rel="stylesheet" type="text/css" href="/css/main.css">
+    </head>
+    
+    <body>
+        <div id="profilePicture">
+            <img src="../assets/images/Me_Hat.png" class="center">
+            <h1 class="center">Gavin Camlin</h1>
+        </div>
+        
+        <nav>
+            <ul>
+                <li><a href="/">Games</a></li>
+                <li><a href="/about">About</a></li>
+                <li><a href="https://twitter.com/GavinCamlin">Twitter</a></li>
+                <li><a href="https://www.linkedin.com/in/gavincamlin/">Linkedin</a></li>
+            </ul>
+        </nav>
+        <div class="container">
+        
+            {{ content }}
+            
+        </div><!-- /.container -->
+        <footer>
+                <p>
+                Copyright © 2018-2019 Gavin Camlin, all rights reserved.
+                </p>
+                
+                <p>
+                All content and trademarks are property of their respective owners.
+                </p>
+        </footer>
+        
+    </body>
+</html>

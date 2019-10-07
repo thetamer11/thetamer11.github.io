@@ -1,0 +1,264 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    margin: 3vw auto;
+    width: 90%;
+    color: #FAFBFC; 
+    background-color: #81B1DC;
+}
+@media(min-width:840px)
+{
+    body
+    {
+        width: 80%;    
+    }
+}
+
+nav
+{
+    background-color: #4999D0;
+    border-top-left-radius: 1vw;
+    border-top-right-radius: 1vw;
+}
+
+nav ul{
+    font-family: 'Helvetica', 'Arial', 'Sans-Serif';
+    padding: 0vw;
+    list-style: none;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-around;
+}
+nav ul li{
+    display: inline;
+    margin-right: 2vw;
+    font-size: 3vw;
+    align-content: center;
+    border: 1vw #4999D0 solid;
+}
+
+footer
+{
+    text-align: center;
+    background-color: #4999D0;
+    border-bottom-left-radius: 1vw;
+    border-bottom-right-radius: 1vw;
+}
+
+a {
+    text-decoration: none;
+    color: #FAFBFC;
+}
+a:hover{
+    text-decoration: underline;
+}
+a:visited{
+    color: #FAFBFC;
+}
+
+.container
+{
+    background-color: #4999D0;
+    padding: 1vw;
+}
+
+#profilePicture
+{
+    padding: 1vw;
+}
+
+#profilePicture h1
+{
+    text-align: center;
+}
+
+#profilePicture img
+{
+    width: 20vw;
+    height: 20vw;
+    border-radius: 15vw;
+    
+}
+@media(min-width:840px)
+{
+    #profilePicture img
+    {
+        width: 13vw;
+        height: 13vw;
+    }
+}
+
+#overlay img
+{
+    width: 85.6vw;
+    height: 64.7vw;
+    z-index: 2;
+    border-radius: 2vw;
+    background-size: contain;
+    position: absolute;
+    opacity: 0.0;
+    transition: 0.5;
+}
+@media(min-width:840px)
+{
+    #overlay img
+    {
+        width: 37.8vw;
+        height: 28.7vw;
+    }
+}
+@media (min-width:1000px)
+{
+    #overlay img
+    {
+        width: 25.35vw;
+        height: 19.5vw;
+    }
+}
+
+#overlay img:hover
+{
+    opacity: 0.5;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+h1 {
+    font-size: 1.5em;
+    line-height: 1.4em;
+}
+
+footer{
+    border-top: 1 px solid #d5d5d5;
+    font-size: .8em;
+}
+
+ul.posts
+{
+    background-size: contain;
+    padding: 1vw;
+    align-content: space-around;
+}
+
+@media (min-width:840px)
+{
+    ul.posts
+    {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 1vw;
+    }
+    
+    
+}
+@media (min-width:1000px)
+{
+    ul.posts
+    {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+ul.posts li
+{
+    width: 100%;
+    border-radius: 2vw;
+    background-position: center center;
+    background-size: cover;
+    list-style: none;
+}
+
+
+ul.posts .logo img
+{
+    width: 75%;
+    height: 75%;
+    
+    position: relative;
+    top: 50%;
+    left: 10%;
+}
+
+/* POST PAGE CSS */
+
+.post .banner
+{
+    width: 102.2%;
+    height: 25vw;
+    background-size: cover;
+    background-position: center;
+    padding: 0px;
+    position: relative;
+    right: 1.1%;
+}
+
+.post .banner img
+{
+    width: 25vw;
+    height: 25vw;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.post .textCol
+{
+    width: 70%;
+}
+
+.post li
+{
+    list-style: none;
+}
+
+.post ul
+{
+    display:flex;
+    justify-content: space-around;
+}
+
+.post .postInfo
+{
+    margin: 2vw;
+
+    display: flex;
+    justify-content: space-around;
+    line-height: 3vw;
+}
+
+.post .description
+{
+    margin: 2vw;
+    text-align: center;
+}
+
+.post .imageCol
+{
+    padding: 1vw;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.post .imageCol ul
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.post .imageCol img
+{
+    width: 30vw;
+    height: 30vw;
+    position: relative;
+}

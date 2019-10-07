@@ -5,6 +5,13 @@ date: 2019-03-11
 link: 
 logo: "/assets/games/008_Property_Damage/Logo.png"
 banner: "/assets/games/008_Property_Damage/Banner.png"
+status: "In development"
+genre: "2D, Fighting"
+company: "Hard Hat Studio"
+companyLink: "#"
+role: "Producer, Programmer"
+tools: "Unity"
+teamSize: "5"
 screenshots:
 - "/assets/games/008_Property_Damage/1.png"
 - "/assets/games/008_Property_Damage/2.png"

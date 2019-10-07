@@ -2,9 +2,15 @@
 layout: post
 title: "Project Birch Tree"
 date: 2019-03-12
-link: 
 logo: "/assets/games/009_Project_Birch_Tree/Logo.png"
 banner: "/assets/games/009_Project_Birch_Tree/Banner.png"
+status: "In development"
+genre: "Mobile, Infinite Runner"
+company: "Basic Witch"
+companyLink: "#"
+role: "Programmer"
+tools: "Unity"
+teamSize: "4"
 screenshots:
 - "/assets/games/009_Project_Birch_Tree/1.png"
 - "/assets/games/009_Project_Birch_Tree/2.png"

@@ -1,26 +1,57 @@
 ---
 layout: default
 ---
-<div class="content">
-<a href="{{ page.url }}" title="{{ page.title }}">
-	<div style="height: 15vw;background-image:url({{ page.banner }});"  class="banner">
-		<div class="logo"><img src="{{ page.logo }}" alt="{{ page.title }}"></div>
-	</div>
-</a>
-
-<div class="area">
-	<div class="container">
-		<div class="post">
-			<h2>{{ page.title }}</h2>
-			<p class="meta">{{ page.date | date: "%m/%d/%Y" }}</p>
-			<hr>
-		</div>
-        <div>{{ content }}</div>
-		<div class="screenshots">
-			{% for screenshots in page.screenshots %}
-				<img style="max-width: 100%;" src = {{ screenshots }}>
-				{% endfor %}
-		</div>
-	</div>
-</div>
-</div>
+<div class="post">
+    <div class="banner" style="background-image:url({{ page.banner }});">
+        <img class="logo center" src="{{ page.logo }}">
+    </div> <!--- end of banner --->
+    
+    <ul>
+        <li class="textCol">
+            <ul class="postInfo">
+                <li class="leftCol">
+                    <h3>Information</h3>
+                    <p>
+                        <b>Status</b>
+                        {{ page.status }}
+                    </p>
+                    <p>
+                        <b>Genre</b>
+                        {{ page.genre }}
+                    </p>
+                    <p>
+                        <b>Company</b>
+                        <a href="{{ page.companyURL }}">{{ page.company }}</a>
+                    </p>
+                </li> <!--- end of leftCol --->
+                <li class="rightCol">
+                    <h3>Development</h3>
+                    <p>
+                        <b>Role</b>
+                        {{ page.role }}
+                    </p>
+                    <p>
+                        <b>Tools</b>
+                        {{ page.tools }}
+                    </p>
+                    <p>
+                        <b>Team Size</b>
+                        {{ page.teamSize }}
+                    </p>
+                </li>
+            </ul> <!--- End of postInfo --->
+            
+            <div class="description">
+                    {{ content }}
+            </div> <!--- End of description --->
+            
+        </li>
+        <li class="imageCol">
+            <ul class="screenshots">
+                {%- for screenshot in page.screenshots -%}
+                    <img src="{{ screenshot }}">
+                {%- endfor -%}
+            </ul>
+        </li>
+    </ul>
+</div> <!--- end of post --->
