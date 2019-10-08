@@ -46,12 +46,42 @@ layout: default
             </div> <!--- End of description --->
             
         </li>
-        <li class="imageCol">
+            
+        {%- if page.platform == "mobileVertical" -%}
+        <div class="imageCol">
             <ul class="screenshots">
                 {%- for screenshot in page.screenshots -%}
-                    <img src="{{ screenshot }}">
+                    <li class="mobileVertical">
+                        <img src="{{ screenshot }}">
+                    </li>
                 {%- endfor -%}
             </ul>
-        </li>
+        </div>
+        {%- endif -%}
+        
+        {%- if page.platform == "mobileHorizontal" -%}
+        <div class="imageCol">
+            <ul class="screenshots">
+                {%- for screenshot in page.screenshots -%}
+                    <li class="mobileHorizontal">
+                        <img src="{{ screenshot }}">
+                    </li>
+                {%- endfor -%}
+            </ul>
+        </div>
+        {%- endif -%}
+        
+        {%- if page.platform == "pc" -%}
+        <div class="imageCol">
+            <ul class="screenshots">    
+                {%- for screenshot in page.screenshots -%}
+                    <li class="pc">   
+                        <img src="{{ screenshot }}">
+                    </li>
+                {%- endfor -%}
+            </ul>
+        </div>
+        {%- endif -%}
+        
     </ul>
 </div> <!--- end of post --->

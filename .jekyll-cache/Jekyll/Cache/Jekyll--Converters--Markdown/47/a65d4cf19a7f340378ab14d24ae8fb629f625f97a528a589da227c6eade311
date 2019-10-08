@@ -1,0 +1,8 @@
+I"¬<p>Programmer on JumpSTART Triage, a simulator for emergency 1st responders developed with Yale Medical School.</p>
+
+<p>JumpSTART Triage has been in the in the worked on for three years and developed a bad case of project decay. What I did during my time on the project was to clean up and refactor current systems and code to improve performance along with ripping out older systems that no longer were relevant to game play.</p>
+
+<p>One of the systems that I had refactored was the spawning system. The previous system couldnâ€™t spawn patients in small areas along with having predictable spawn locations. The new system that I created allowed points to be painted on (as long as the space was large enough) and control what types of patients could spawn there.</p>
+
+<p>Managed building for the whole project, built and signed weekly windows and mac builds for the projects along with writing version notes for each different build.</p>
+:ET

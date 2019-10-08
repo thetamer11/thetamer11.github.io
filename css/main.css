@@ -10,7 +10,7 @@ body{
     color: #FAFBFC; 
     background-color: #81B1DC;
 }
-@media(min-width:840px)
+@media(min-width:800px)
 {
     body
     {
@@ -83,7 +83,7 @@ a:visited{
     border-radius: 15vw;
     
 }
-@media(min-width:840px)
+@media(min-width:800px)
 {
     #profilePicture img
     {
@@ -103,7 +103,7 @@ a:visited{
     opacity: 0.0;
     transition: 0.5;
 }
-@media(min-width:840px)
+@media(min-width:800px)
 {
     #overlay img
     {
@@ -149,7 +149,7 @@ ul.posts
     align-content: space-around;
 }
 
-@media (min-width:840px)
+@media (min-width:800px)
 {
     ul.posts
     {
@@ -235,12 +235,31 @@ ul.posts .logo img
     display: flex;
     justify-content: space-around;
     line-height: 3vw;
+    font-size: 2vw;
 }
 
 .post .description
 {
-    margin: 2vw;
+    margin: 3vw;
     text-align: center;
+    font-size: 3vw;
+}
+
+.post .description ul
+{
+    list-style: circle;
+    display: block;
+}
+
+.post .description li
+{
+    list-style: circle;
+    text-align: left;
+}
+
+.post .description h3
+{
+    line-height: 7.5vw;
 }
 
 .post .imageCol
@@ -256,7 +275,27 @@ ul.posts .logo img
     flex-direction: column;
 }
 
-.post .imageCol img
+.post .imageCol .mobileVertical
+{
+    
+    
+}
+
+.post .imageCol .mobileVertical img 
+{
+    width: 15vw;
+    height: 30vw;
+    position: relative;
+}
+
+.post .imageCol .mobileHorizontal img 
+{
+    width: 30vw;
+    height: 15vw;;
+    position: relative;
+}
+
+.post .imageCol .pc img
 {
     width: 30vw;
     height: 30vw;
