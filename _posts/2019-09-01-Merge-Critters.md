@@ -3,7 +3,7 @@ layout: post
 title: "Merge Critters"
 date: 2019-09-01
 
-logo: "/assets/games/011_Merge_Critters/Logo.png"
+logo: "/assets/games/011_Merge_Critters/logo.png"
 banner: "/assets/games/011_Merge_Critters/Banner.png"
 
 status: "Released"
