@@ -5,8 +5,8 @@
 }
 
 body{
-    margin: 3vw auto;
-    width: 90%;
+    margin: 0vw auto;
+    width: 100%;
     color: #FAFBFC; 
     background-color: #81B1DC;
 }
@@ -14,15 +14,15 @@ body{
 {
     body
     {
-        width: 80%;    
+        width: 100%;    
     }
 }
 
 nav
 {
     background-color: #4999D0;
-    border-top-left-radius: 1vw;
-    border-top-right-radius: 1vw;
+    width: 100%;
+    position: fixed;
 }
 
 nav ul{
