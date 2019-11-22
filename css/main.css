@@ -159,6 +159,8 @@ footer{
 
 ul.posts
 {
+    width: 85%;
+    margin: auto;
     background-size: contain;
     padding: 1vw;
     align-content: space-around;
@@ -202,6 +204,27 @@ ul.posts .logo img
     position: relative;
     top: 50%;
     left: 10%;
+}
+
+/* RESUME SECTION OF INDEX.HTML */
+
+.resumeBlurb
+{
+    width: 85%;
+    margin: auto;
+    padding: 2vw;
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+    background-color: #1F2833;
+    border-radius: 2vw;
+}
+
+.resumeBlurb img
+{
+    width: 10vw;
+    height: 10vw;
+    opacity: 1;
+    border-radius: 2vw;
 }
 
 /* POST PAGE CSS */
