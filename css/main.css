@@ -230,6 +230,19 @@ ul.posts .logo img
     border-radius: 2vw;
 }
 
+.resumeBlurb ul
+{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    list-style: none;
+    align-content: center;
+}
+
+.resumeBlurb li
+{
+    margin: auto;   
+}
+
 /* POST PAGE CSS */
 
 .post
