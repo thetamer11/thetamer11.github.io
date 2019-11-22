@@ -223,21 +223,34 @@ ul.posts .logo img
 
 /* POST PAGE CSS */
 
+.post
+{
+    width: 100%;
+    align-content: center;
+}
+
+.post .bottomHalf
+{
+    width: 70%;
+    align-items: center;
+    margin: auto;
+}
+
 .post .banner
 {
-    width: 102.2%;
-    height: 25vw;
+    width: 100%;
+    height: 15vw;
     background-size: cover;
     background-position: center;
     padding: 0px;
     position: relative;
-    right: 1.1%;
+    margin: auto;
 }
 
 .post .banner img
 {
-    width: 25vw;
-    height: 25vw;
+    width: 15vw;
+    height: 15vw;
     
     display: flex;
     justify-content: center;
@@ -267,7 +280,7 @@ ul.posts .logo img
     display: flex;
     justify-content: space-around;
     line-height: 3vw;
-    font-size: 2vw;
+    font-size: 1vw;
 }
 
 .post .description
