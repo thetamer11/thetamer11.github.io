@@ -40,7 +40,7 @@ nav
 }
 
 nav ul{
-    font-family: 'Ibarra Real Nova', serif;
+    font-family: 'Tomorrow', sans-serif;
     padding: 0vw;
     list-style: none;
     font-weight: bold;
@@ -61,6 +61,9 @@ footer
     background-color: #0B0C10;
     border-bottom-left-radius: 1vw;
     border-bottom-right-radius: 1vw;
+    padding: 4vw;
+    padding-bottom: 0vw;
+    margin-bottom: 0vw;
 }
 
 .titleBlock
@@ -91,7 +94,7 @@ a:hover{
 
 #profilePicture
 {
-    padding: 1vw;
+    padding: 1.5vw;
     background-color: #1F2833;
 }
 
