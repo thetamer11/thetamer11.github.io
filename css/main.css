@@ -126,30 +126,13 @@ a:hover{
 
 #overlay img
 {
-    width: 85.6vw;
-    height: 64.7vw;
+    
     z-index: 2;
-    border-radius: 2vw;
-    background-size: contain;
-    position: absolute;
     opacity: 0.0;
     transition: 0.5;
-}
-@media(min-width:800px)
-{
-    #overlay img
-    {
-        width: 37.8vw;
-        height: 28.7vw;
-    }
-}
-@media (min-width:1000px)
-{
-    #overlay img
-    {
-        width: 25.35vw;
-        height: 19.5vw;
-    }
+    background-color: black;
+    width: 100%;
+    height: 100%;
 }
 
 #overlay img:hover
