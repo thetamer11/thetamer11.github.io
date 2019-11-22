@@ -8,7 +8,7 @@ body{
     margin: 0vw auto;
     width: 100%;
     color: #FAFBFC; 
-    background-color: #81B1DC;
+    background-color: #4999D0;
 }
 @media(min-width:800px)
 {
@@ -22,7 +22,18 @@ nav
 {
     background-color: #4999D0;
     width: 100%;
-    position: fixed;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+#lineStrike
+{
+    width: 100%;
+    background-color: #FAFBFC;
+    height: 2px;
+    border-top: 5px #4999D0 solid;
+    border-bottom: 5px #4999D0 solid;
 }
 
 nav ul{
@@ -69,9 +80,16 @@ a:visited{
 #profilePicture
 {
     padding: 1vw;
+    background-color: #81B1DC;
 }
 
 #profilePicture h1
+{
+    text-align: center;
+    font-size: 2.5vw;
+}
+
+#profilePicture h2
 {
     text-align: center;
 }
