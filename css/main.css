@@ -9,6 +9,7 @@ body{
     width: 100%;
     color: #C5C6C7; 
     background-color: #0B0C10;
+    font-family: 'Roboto', sans-serif;
 }
 @media(min-width:800px)
 {
@@ -39,7 +40,7 @@ nav
 }
 
 nav ul{
-    font-family: 'Helvetica', 'Arial', 'Sans-Serif';
+    font-family: 'Ibarra Real Nova', serif;
     padding: 0vw;
     list-style: none;
     font-weight: bold;
@@ -96,6 +97,7 @@ a:hover{
 
 #profilePicture h1
 {
+    font-family: 'Ibarra Real Nova', serif;
     text-align: center;
     font-size: 2.5vw;
 }
