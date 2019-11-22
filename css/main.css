@@ -8,7 +8,7 @@ body{
     margin: 0vw auto;
     width: 100%;
     color: #C5C6C7; 
-    background-color: #1F2833;
+    background-color: #0B0C10;
 }
 @media(min-width:800px)
 {
@@ -57,7 +57,7 @@ nav ul li{
 footer
 {
     text-align: center;
-    background-color: #4999D0;
+    background-color: #0B0C10;
     border-bottom-left-radius: 1vw;
     border-bottom-right-radius: 1vw;
 }
@@ -107,6 +107,7 @@ a:hover{
 
 #profilePicture img
 {
+    background-color: #1F2833;
     width: 20vw;
     height: 20vw;
     border-radius: 15vw;
