@@ -7,8 +7,8 @@
 body{
     margin: 0vw auto;
     width: 100%;
-    color: #FAFBFC; 
-    background-color: #4999D0;
+    color: #C5C6C7; 
+    background-color: #1F2833;
 }
 @media(min-width:800px)
 {
@@ -20,7 +20,7 @@ body{
 
 nav
 {
-    background-color: #4999D0;
+    background-color: #0B0C10;
     width: 100%;
     position: sticky;
     top: 0;
@@ -30,10 +30,12 @@ nav
 #lineStrike
 {
     width: 100%;
-    background-color: #FAFBFC;
+    background-color: #45A29E;
     height: 2px;
-    border-top: 5px #4999D0 solid;
-    border-bottom: 5px #4999D0 solid;
+    border-top: 5px #0B0C10 solid;
+    border-bottom: 5px #0B0C10 solid;
+    border-right-width: 0px;
+    border-left-width: 0px;
 }
 
 nav ul{
@@ -49,7 +51,7 @@ nav ul li{
     margin-right: 2vw;
     font-size: 3vw;
     align-content: center;
-    border: 1vw #4999D0 solid;
+    border: 1vw #0B0C10 solid;
 }
 
 footer
@@ -60,27 +62,36 @@ footer
     border-bottom-right-radius: 1vw;
 }
 
+.titleBlock
+{
+    
+}
+
+.titleBlock h1
+{
+    text-align: center;
+    font-size: 2vw;
+}
+
 a {
     text-decoration: none;
-    color: #FAFBFC;
+    color: #C5C6C7;
 }
 a:hover{
     text-decoration: underline;
-}
-a:visited{
     color: #FAFBFC;
 }
 
 .container
 {
-    background-color: #4999D0;
+    background-color: #0B0C10;
     padding: 1vw;
 }
 
 #profilePicture
 {
     padding: 1vw;
-    background-color: #81B1DC;
+    background-color: #1F2833;
 }
 
 #profilePicture h1
