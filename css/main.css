@@ -226,8 +226,13 @@ ul.posts .logo img
 {
     width: 10vw;
     height: 10vw;
-    opacity: 1;
     border-radius: 2vw;
+}
+
+#profilePic img
+{
+    width: 15vw;
+    height: 15vw;
 }
 
 .resumeBlurb ul
@@ -241,6 +246,65 @@ ul.posts .logo img
 .resumeBlurb li
 {
     margin: auto;   
+}
+
+.resumeBlurb h1
+{
+    background-color: #45A29E;
+    border-radius: 2vw;
+    padding: 1vw;
+    margin: auto;
+    font-size: 1.25vw;
+    text-align: center;
+    position: relative;
+    top: .5vw;
+}
+
+.threePanel .resumeBlurb
+{
+    display: table-cell;
+    width: 20%;
+    align-content: center;
+}
+
+.threePanel
+{
+    width: 85%;
+    margin: auto;
+    display: flex;
+    justify-content: flex-start;
+}
+
+#imageList
+{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 1vw; 
+}
+
+#programHeader
+{
+    font-size: 1.2vw;
+}
+
+#imageList li
+{
+    margin: .45vw;
+}
+
+#imageList img
+{
+    width: 4vw;
+    height: 4vw;
+    border-radius: 0px;
+}
+
+#imageList p
+{
+    text-align: center;
 }
 
 /* POST PAGE CSS */
