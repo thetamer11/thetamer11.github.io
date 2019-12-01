@@ -234,7 +234,7 @@ ul.posts .logo img
 
 .twoPanel .resumeBlurb:first-child
 {
-    width: 60%;
+    width: 65%;
 }
 
 .resumeBlurb img
@@ -324,9 +324,15 @@ ul.posts .logo img
 
 .aboutMe
 {
-    text-align: right;
+    text-align: center;
     display: flex;
     padding: 0;
+    font-size: 1.2vw;
+}
+
+.aboutMe p
+{
+    padding: 1vw;
 }
 
 
