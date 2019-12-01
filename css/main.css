@@ -213,13 +213,23 @@ ul.posts .logo img
 
 .resumeBlurb
 {
-    width: 85%;
-    margin: auto;
+    width: 100%;
     padding: 2vw;
     margin-top: 1vw;
     margin-bottom: 1vw;
     background-color: #1F2833;
     border-radius: 2vw;
+}
+
+.threePanel .resumeBlurb
+{
+    width: 25%; 
+}
+
+.twoPanel .resumeBlurb
+{
+    width: 40%;
+    text-align: center;
 }
 
 .resumeBlurb img
@@ -258,21 +268,16 @@ ul.posts .logo img
     text-align: center;
     position: relative;
     top: .5vw;
-}
+    width: 80%;
+}   
 
-.threePanel .resumeBlurb
-{
-    display: table-cell;
-    width: 20%;
-    align-content: center;
-}
-
-.threePanel
+.threePanel, .twoPanel
 {
     width: 85%;
     margin: auto;
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-between;
+    position: relative;
 }
 
 #imageList
@@ -306,6 +311,14 @@ ul.posts .logo img
 {
     text-align: center;
 }
+
+.resume img
+{
+    
+    
+}
+
+
 
 /* POST PAGE CSS */
 
