@@ -244,10 +244,15 @@ ul.posts .logo img
     border-radius: 2vw;
 }
 
-#profilePic img
+#profilePic 
 {
-    width: 15vw;
-    height: 15vw;
+    background-image: url(../assets/images/Me_Hat.png);
+    background-size: cover;
+    background-position: center center;
+    height: 100%;
+    width: 100%;
+    border-top-left-radius: 2vw;
+    border-bottom-left-radius: 2vw;
 }
 
 .resumeBlurb ul
@@ -320,6 +325,8 @@ ul.posts .logo img
 .aboutMe
 {
     text-align: right;
+    display: flex;
+    padding: 0;
 }
 
 
