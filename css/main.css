@@ -250,7 +250,7 @@ ul.posts .logo img
     background-size: cover;
     background-position: center center;
     height: 100%;
-    width: 100%;
+    width: 105vw;
     border-top-left-radius: 2vw;
     border-bottom-left-radius: 2vw;
 }
@@ -324,7 +324,6 @@ ul.posts .logo img
 
 .aboutMe
 {
-    text-align: center;
     display: flex;
     padding: 0;
     font-size: 1.2vw;
@@ -332,7 +331,9 @@ ul.posts .logo img
 
 .aboutMe p
 {
-    padding: 1vw;
+    padding: 1.3vw;
+    text-align: left;
+    line-height: 1.45em;
 }
 
 
