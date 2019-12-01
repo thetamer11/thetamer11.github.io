@@ -226,16 +226,37 @@ ul.posts .logo img
     width: 25%; 
 }
 
-.twoPanel .resumeBlurb
+.twoPanel .resumeBlurb, .twoPanel .twoVert
 {
-    width: 25%;
+    width: 30%;
     text-align: center;
+}
+
+.twoVert
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: aliceblue;
 }
 
 .twoPanel .resumeBlurb:first-child
 {
     width: 65%;
 }
+
+
+.twoVert .resumeBlurb:first-child
+{
+    width: 84.25%;   
+}
+
+.twoVert .resumeBlurb
+{
+    position: relative;
+    width: 84.25%;
+}
+
 
 .resumeBlurb img
 {
@@ -296,6 +317,7 @@ ul.posts .logo img
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    flex-direction: row;
     width: 100%;
     margin-top: 1vw; 
 }
