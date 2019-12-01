@@ -228,8 +228,13 @@ ul.posts .logo img
 
 .twoPanel .resumeBlurb
 {
-    width: 40%;
+    width: 25%;
     text-align: center;
+}
+
+.twoPanel .resumeBlurb:first-child
+{
+    width: 60%;
 }
 
 .resumeBlurb img
@@ -312,12 +317,10 @@ ul.posts .logo img
     text-align: center;
 }
 
-.resume img
+.aboutMe
 {
-    
-    
+    text-align: right;
 }
-
 
 
 /* POST PAGE CSS */
