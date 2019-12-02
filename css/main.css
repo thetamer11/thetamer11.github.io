@@ -382,6 +382,45 @@ ul.posts .logo img
     padding-top: 1vw;
 }
 
+/* CONTACT SECTION OF INDEX.HTML */
+
+.contactBody
+{
+    width: 85%;
+    margin: auto;
+    align-content: center;
+    text-align: center;
+}
+
+.contactBlurb, .email
+{
+    background-color: #1F2833;
+    border-radius: 2vw;
+    padding: .5vw;
+    border: .5vw solid #0B0C10;
+}
+
+.email
+{
+    background-color: #C5C6C7;
+    color:  #1F2833;
+}
+
+.contactBody ul
+{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 20%;
+    margin: auto;
+}
+
+.contactBody li img
+{
+    width: 5vw;
+    height: 5vw;
+}
 
 /* POST PAGE CSS */
 
