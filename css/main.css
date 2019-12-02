@@ -349,6 +349,17 @@ ul.posts .logo img
 #imageList li
 {
     margin: .45vw;
+    text-align: center;
+    align-content: center;
+}
+
+#imageList h3
+{
+    width: 4vw;
+    height: 4vw;
+    background-color: #C5C6C7;
+    color: #1F2833;
+    border-radius: 1vw;
 }
 
 #imageList img
