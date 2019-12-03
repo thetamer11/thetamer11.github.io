@@ -317,6 +317,21 @@ ul.posts .logo img
     font-family: 'Alatsi', sans-serif;
 }   
 
+.resumeBlurb p
+{
+    font-size: 1.2vw;
+}
+
+.resumeBlurb h2
+{
+    font-size: 2.1vw;
+}
+
+.resumeBlurb .idkMan
+{
+    font-size: 1vw;
+}
+
 .threePanel, .twoPanel
 {
     width: 85%;
