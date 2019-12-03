@@ -2,6 +2,7 @@
 {
     margin: 0px;
     padding: 0px;
+    font-family: 'Open Sans', sans-serif;
 }
 
 body{
@@ -9,7 +10,6 @@ body{
     width: 100%;
     color: #C5C6C7; 
     background-color: #0B0C10;
-    font-family: 'Roboto', sans-serif;
 }
 @media(min-width:800px)
 {
@@ -40,7 +40,6 @@ nav
 }
 
 nav ul{
-    font-family: 'Tomorrow', sans-serif;
     padding: 0vw;
     list-style: none;
     font-weight: bold;
@@ -50,7 +49,7 @@ nav ul{
 nav ul li{
     display: inline;
     margin-right: 2vw;
-    font-size: 3vw;
+    font-size: 2.5vw;
     align-content: center;
     border: 1vw #0B0C10 solid;
 }
@@ -75,6 +74,7 @@ footer
 {
     text-align: center;
     font-size: 2vw;
+    font-family: 'Alatsi', sans-serif;
 }
 
 a {
@@ -100,9 +100,9 @@ a:hover{
 
 #profilePicture h1
 {
-    font-family: 'Ibarra Real Nova', serif;
     text-align: center;
     font-size: 2.5vw;
+    font-family: 'Alatsi', sans-serif;
 }
 
 #profilePicture h2
@@ -314,6 +314,7 @@ ul.posts .logo img
     position: relative;
     top: .5vw;
     width: 80%;
+    font-family: 'Alatsi', sans-serif;
 }   
 
 .threePanel, .twoPanel
@@ -423,14 +424,14 @@ ul.posts .logo img
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    width: 20%;
+    width: 15%;
     margin: auto;
 }
 
 .contactBody li img
 {
-    width: 5vw;
-    height: 5vw;
+    width: 4vw;
+    height: 4vw;
 }
 
 /* POST PAGE CSS */
