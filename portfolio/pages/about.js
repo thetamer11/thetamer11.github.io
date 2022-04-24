@@ -15,7 +15,8 @@ export default function About() {
     }
 
     const pText = {
-        textAlign: "left"
+        textAlign: "left",
+        marginLeft: 10
     }
 
     const headerStyle = {
@@ -84,10 +85,10 @@ export default function About() {
                             <Grid container spacing={0}>
                                         <Grid md={5} item>
                                             <div style={{
-                                                backgroundImage: 'url(assets/images/Me_Hat.png)',
+                                                backgroundImage: 'url(assets/images/DinoBoi.jpg)',
                                                 height: "100%",
                                                 width: "100%",
-                                                backgroundPosition: "center center",
+                                                backgroundPosition: "top center",
                                                 backgroundSize: "cover",
                                                 borderTopLeftRadius: "1vw",
                                                 borderBottomLeftRadius: "1vw"
@@ -151,7 +152,7 @@ export default function About() {
                                     <h3 style={headerTextStyle}>Resume</h3>
                                 </Grid>
                                 <Grid md={12} item>
-                                    <a href="assets/Resumes/Resume_1_22_20.pdf" target="_blank">
+                                    <a href="assets/Resumes/Resume_3_14_22.pdf" target="_blank">
                                     <div class="resumeLink" style={{
                                         backgroundImage: "url(assets/images/Resume.png)",
                                         backgroundPosition: "top center",
