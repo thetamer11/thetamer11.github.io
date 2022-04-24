@@ -34,7 +34,7 @@ export default function Unity() {
         contribs = {["Developed 4 enemy AIs with small variants of each, totally 8 versions.", "Created and tuned player movement and dashing.", "Wrote a procedural animated grass shader, generated based on the vertex colors at that point in the texture.", "Wrote a cell shader that worked off of a global color palette, allowing us to easily test out different palettes early in development.", "Designed combat and all buffs for the player.", "Utilized a scriptable object workflow to easily create new abilities for the player and swap them out. (dashs, sword swings, sword throw, etc.)"]}
         teamSize={3}
         />
-      </main>
+    </main>
     </div>
     )
 }

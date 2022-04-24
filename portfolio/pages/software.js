@@ -144,7 +144,7 @@ class Software extends Component {
                                 </h3>
                                 <ul style={bulletStyle}>
                                 {this.contribs.map((value) =>(
-                                    <li>
+                                    <li key={value}>
                                         {value}
                                     </li>
                                 ))

@@ -121,7 +121,7 @@ export default function About() {
                                         margin: "1vw"
                                     }}>
                                             {languages.map((value) => (
-                                            <Stack spacing={0}>
+                                            <Stack spacing={0} key={value.name}>
                                                 <img src={value.logo} style={{
                                                     width: "4vw",
                                                     height: "4vw",
@@ -153,7 +153,7 @@ export default function About() {
                                 </Grid>
                                 <Grid md={12} item>
                                     <a href="assets/Resumes/Resume_3_14_22.pdf" target="_blank">
-                                    <div class="resumeLink" style={{
+                                    <div className="resumeLink" style={{
                                         backgroundImage: "url(assets/images/Resume.png)",
                                         backgroundPosition: "top center",
                                         backgroundSize: "cover",
@@ -181,7 +181,7 @@ export default function About() {
                                         paddingBottom: 4
                                     }}>
                                         {engines.map((value) => (
-                                            <img src={value} style={{
+                                            <img key={value} src={value} style={{
                                                 width: "4vw",
                                                 height: "4vw"
                                             }}/>
@@ -203,7 +203,7 @@ export default function About() {
                                         paddingBottom: 4
                                     }}>
                                         {utilities.map((value) => (
-                                            <img src={value} style={{
+                                            <img key={value} src={value} style={{
                                                 width: "4vw",
                                                 height: "4vw"
                                             }}/>
