@@ -1,12 +1,9 @@
 import Head from 'next/head'
-import Image from 'next/image'
 import styles from '../../styles/Home.module.css'
-import Header from './../header'
-import Topbar from './../topbar.js'
-import SectionTitle from './../section-title'
-import ProjectGrid from './../projectGrid'
-import About from './../about'
-import MobileGameHorizontal from './../mobile_game_horizontal'
+import Header from './../../components/header'
+import Topbar from './../../components/topbar.js'
+import SectionTitle from './../../components/section-title'
+import MobileGameHorizontal from './../../components/mobile_game_horizontal'
 
 export default function Unity() {
     return(
