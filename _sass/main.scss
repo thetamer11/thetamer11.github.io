@@ -1,0 +1,46 @@
+body {
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+.skill_logo {
+    size:1px;
+    width: 3em;
+    height: 3em;
+}
+
+#ProfilePic {
+    width: 10em;
+    height: 10em;
+    border-radius: 24%;
+}
+
+#header_container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+};
+
+#header_container #item{
+    width: 50%;
+}
+
+#header_container p {
+    text-align: left;
+    font-size: large;
+}
+
+#about_container {
+    display: grid;
+    align-items: center;
+    grid-template-columns: auto auto;
+}
+
+.skills_container {
+    display: grid;
+    align-items: center;
+    grid-template-columns: auto auto auto;
+}
+
+.skills_container #skill_list {
+    width: 33%;
+}
