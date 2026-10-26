@@ -44,3 +44,14 @@ body {
 .skills_container #skill_list {
     width: 33%;
 }
+
+#game_info {
+    display: grid;
+    align-items: left;
+    grid-template-columns: auto auto;
+}
+
+#game_info img{
+    width: 3em;
+    height: 3em;
+}

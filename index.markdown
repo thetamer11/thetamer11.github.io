@@ -6,6 +6,7 @@ title: Gavin Camlin
 layout: home
 ---
 
+<!-- Page header -->
 
 <div id="header_container">
     <div id="item">
@@ -19,6 +20,8 @@ layout: home
       <img id="ProfilePic" src="assets\images\profiles\profile_pic.jpg">
     </div>
 </div>
+
+<!-- About Container -->
 
 <div id="about_container">
 <div>
@@ -64,4 +67,25 @@ layout: home
     </div>
   </div>
 </div>
+</div>
+
+<!-- Games -->
+
+<div class="games_container">
+<h1> Games </h1> 
+{% for game in site.games %}
+  <h1>
+  {{ game.title }}
+  </h1>
+  <div id="game_info">
+    <div>
+      <img src="{{ game.icon }}">
+    </div>
+    <div>
+      <p>
+        {{ game.content }}
+      </p>
+    </div>
+  </div>
+{% endfor %}
 </div>
