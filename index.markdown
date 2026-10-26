@@ -89,3 +89,7 @@ layout: home
   </div>
 {% endfor %}
 </div>
+
+<!-- Volunteer Work -->
+
+<h1> Volunteer Work Section </h1>
