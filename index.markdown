@@ -21,6 +21,72 @@ layout: home
     </div>
 </div>
 
+<!-- Games -->
+
+<div class="games_container">
+<h1> Games and Software </h1> 
+{% for game in site.games %}
+  
+{% if game.game %}
+
+  <h1>
+    <a href="{{ game.store_link }}">
+      {{ game.title }} - {{ game.release-date }}
+    </a>
+  </h1>
+  
+  <div id="game_info">
+    <div class="info_box">
+      
+      <div id="inf_item">
+        <h2> Project Info </h2>
+        <ul>
+          <li>
+            Engine: <strong>{{ game.engine }}</strong>
+          </li>
+          <li>
+            Dev Time: <strong>{{ game.development-time }}</strong>
+          </li>
+          <li>
+            Role: <strong>{{ game.role }}</strong>
+          </li>
+        </ul>
+      </div>
+      
+      <div id="inf_item">
+        <h2>Platforms</h2>
+        <ul>
+        {% for plat in game.platforms %}
+          <li> 
+            {{ plat }}
+          </li>
+        {% endfor %}
+        </ul>
+      </div>  
+    </div>
+    
+    <div id="image">
+      <iframe width="560" height="315" src="{{ game.trailer }}" title="{{ game.title }} trailer" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+  </div>
+
+  <div>
+    <p>
+      {{ game.content }}
+    </p>
+  </div>
+
+{% else %}
+
+  <h1> {{ game.title }} </h1>
+
+{% endif %}
+
+{% endfor %}
+</div>
+
+
+
 <!-- About Container -->
 
 <div id="about_container">
@@ -67,27 +133,6 @@ layout: home
     </div>
   </div>
 </div>
-</div>
-
-<!-- Games -->
-
-<div class="games_container">
-<h1> Games </h1> 
-{% for game in site.games %}
-  <h1>
-  {{ game.title }}
-  </h1>
-  <div id="game_info">
-    <div>
-      <img src="{{ game.icon }}">
-    </div>
-    <div>
-      <p>
-        {{ game.content }}
-      </p>
-    </div>
-  </div>
-{% endfor %}
 </div>
 
 <!-- Volunteer Work -->

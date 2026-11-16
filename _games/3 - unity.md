@@ -1,7 +1,9 @@
 ---
 title: Vivox
 
-store_link: https://unity.com/products/vivox
+game: false
+
+link: https://unity.com/products/vivox
 
 icon: assets\images\games\Vivox.png
 

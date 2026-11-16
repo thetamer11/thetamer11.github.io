@@ -45,6 +45,8 @@ body {
     width: 33%;
 }
 
+// Project Info Section
+
 #game_info {
     display: grid;
     align-items: left;
@@ -52,6 +54,17 @@ body {
 }
 
 #game_info img{
-    width: 3em;
-    height: 3em;
+    padding-left: 10%;
+    padding-bottom: 5%;
+    padding-top: 5%;
+    padding-right: 10%;
+    width: 90%;
+    align-items: center;
+    height: auto;
+}
+
+.info_box {
+    display: grid;
+    align-items: left;
+    grid-template-columns: auto auto;
 }
