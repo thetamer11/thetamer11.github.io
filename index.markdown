@@ -13,7 +13,9 @@ layout: home
         <p>
         Hey, I'm Gavin!<br><br>
 
-        I'm a AAA games engineer. I have experience in gameplay systems, network, porting, and tools engineering. I also volunteer my time towards organizing Boston Game Dev.
+        I'm a AAA games engineer. I have experience in gameplay systems, network, porting, and tools engineering. 
+        <br><br>
+        Presently I work at Toys for Bob as a Software Engineer and  previously at Unity/Vivox as a Network Engineer. I also volunteer my time towards organizing Boston Game Dev. 
         </p>
     </div>
     <div id="item">
