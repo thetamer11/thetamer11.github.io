@@ -1,17 +1,14 @@
 body {
+    padding-top: 4em;
     padding-left: 8%;
     padding-right: 8%;
 }
 
-.skill_logo {
-    size:1px;
-    width: 3em;
-    height: 3em;
-}
+// About section
 
 #ProfilePic {
-    width: 10em;
-    height: 10em;
+    width: 100%;
+    height: auto;
     border-radius: 24%;
 }
 
@@ -35,6 +32,8 @@ body {
     grid-template-columns: auto auto;
 }
 
+// Skills
+
 .skills_container {
     display: grid;
     align-items: center;
@@ -44,6 +43,13 @@ body {
 .skills_container #skill_list {
     width: 33%;
 }
+
+.skill_logo {
+    size:1px;
+    width: 3em;
+    height: 3em;
+}
+
 
 // Project Info Section
 

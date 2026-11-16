@@ -14,6 +14,8 @@ release-date: 2027
 
 engine: Unreal 5
 
+company: Tfb
+
 platforms: 
 - Switch 2
 - PS5

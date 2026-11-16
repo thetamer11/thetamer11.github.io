@@ -14,11 +14,15 @@ release-date: 2023
 
 engine: Unreal 4
 
+role: Network Engineer
+
 platforms: 
 - PS5
 - PS4
 - Xbox Series X
 - Xbox One
+
+company: Tfb
 ---
 
 Test huh.

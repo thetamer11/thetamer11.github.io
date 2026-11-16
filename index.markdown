@@ -13,7 +13,7 @@ layout: home
         <p>
         Hey, I'm Gavin!<br><br>
 
-        I'm a professional gameplay systems and network engineer for games. I'm also a frequent contributor to Boston Game Development.
+        I'm a AAA games engineer. I have experience in gameplay systems, network, porting, and tools engineering. I also volunteer my time towards organizing Boston Game Dev.
         </p>
     </div>
     <div id="item">
@@ -26,7 +26,7 @@ layout: home
 <div class="games_container">
 <h1> Games and Software </h1> 
 {% for game in site.games %}
-  
+
 {% if game.game %}
 
   <h1>
@@ -41,6 +41,10 @@ layout: home
       <div id="inf_item">
         <h2> Project Info </h2>
         <ul>
+          <li>
+            {% assign comp = site.data.companies[game.company] %}
+            Company: <strong>{{ comp.Name }}</strong>
+          </li>
           <li>
             Engine: <strong>{{ game.engine }}</strong>
           </li>
